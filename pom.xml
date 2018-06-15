@@ -8,14 +8,17 @@
   <name>sravani</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-    <repository>
-      <id>sample</id>
-      <name>Internal Releases</name>
-      <url>http://localhost:8082/repository/sample/</url>
-      <id>samplerelease</id>
-      <name>Internal Releases</name>
-      <url>http://localhost:8082/repository/samplerelease/</url>
-    </repository>
+	<repository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://localhost:8082/repository/sample/</url>
+	</repository>
+	<snapshotRepository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://localhost:8082/repository/samplerelease/</url>
+	</snapshotRepository>
+</distributionManagement>
    </distributionManagement>
   <dependencies>
     <dependency>
