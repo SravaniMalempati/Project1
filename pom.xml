@@ -18,7 +18,6 @@
 		<name>Internal Releases</name>
 		<url>http://localhost:8082/repository/samplerelease/</url>
 	</snapshotRepository>
-</distributionManagement>
    </distributionManagement>
   <dependencies>
     <dependency>
