@@ -13,12 +13,7 @@
       <name>Internal Releases</name>
       <url>http://localhost:8082/repository/sample/</url>
     </repository>
-    <repository>
-      <id>deployment</id>
-      <name>External releases</name>
-      <url>http://localhost:8082/repository/samplerelease/</url>
-    </repository>
-    </distributionManagement>
+   </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
