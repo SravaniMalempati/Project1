@@ -13,6 +13,11 @@
       <name>Internal Releases</name>
       <url>http://localhost:8082/repository/sample/</url>
     </repository>
+    <repository>
+      <id>samplerelease</id>
+      <name>Internal Releases</name>
+      <url>http://localhost:8082/repository/samplerelease/</url>
+    </repository>
    </distributionManagement>
   <dependencies>
     <dependency>
