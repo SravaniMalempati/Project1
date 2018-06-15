@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>sravani</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Releases</name>
+      <url>http://localhost:8082/repository/sample/</url>
+    </repository>
+    <repository>
+      <id>deployment</id>
+      <name>External releases Releases</name>
+      <url>http://localhost:8082/repository/samplerelease/</url>
+    </repository>
+    </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
