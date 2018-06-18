@@ -8,15 +8,10 @@
   <name>sravani</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-	<repository>
-		<id>deploymentRepo</id>
-		<name>sample</name>
-		<url>http://localhost:8082/repository/sample/</url>
-	</repository>
 	<snapshotRepository>
-		<id>Repo</id>
-		<name>samplerelease</name>
-		<url>http://localhost:8082/repository/samplerelease/</url>
+		<id>snapshots</id>
+		<name>Snapshots</name>
+		<url>http://localhost:8082/repository/Snapshots/</url>
 	</snapshotRepository>
    </distributionManagement>
   <dependencies>
